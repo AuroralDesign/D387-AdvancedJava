@@ -5,7 +5,7 @@ import java.util.ResourceBundle;
 
 public class WelcomeMsg implements Runnable{
 
-    private Locale locale;
+    private final Locale locale;
     private String message;
 
     public WelcomeMsg(Locale locale) {
@@ -15,10 +15,10 @@ public class WelcomeMsg implements Runnable{
     @Override
     public void run() {
         try {
-            ResourceBundle res_bundle = ResourceBundle.getBundle("messages", locale);
+            ResourceBundle res_bundle = ResourceBundle.getBundle("translation", locale);
             message = res_bundle.getString("welcome");
         } catch (Exception e) {
-            message = "Couldn't retrieve WelcomeMsg.java: " + locale;
+            message = "Couldn't retrieve localized message: " + locale;
         }
     }
 

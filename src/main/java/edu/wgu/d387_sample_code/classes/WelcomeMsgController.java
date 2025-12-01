@@ -12,18 +12,20 @@ import java.util.ResourceBundle;
 
 @RestController
 @RequestMapping("/api/welcome")
+
 public class WelcomeMsgController {
 
     @GetMapping
-    public Map<String, String> getWelcomeMessages() throws InterruptedException {Map<String, String> messages = Collections.synchronizedMap(new HashMap<>());
+    public Map<String, String> getWelcomeTranslations() throws InterruptedException {
+        Map<String, String> translation = Collections.synchronizedMap(new HashMap<>());
         Thread enThread = new Thread(() -> {
-            ResourceBundle res_bundle = ResourceBundle.getBundle("messages", Locale.ENGLISH);
-            messages.put("english", res_bundle.getString("welcome"));
+            ResourceBundle res_bundle = ResourceBundle.getBundle("translation", Locale.ENGLISH);
+            translation.put("_en_US", res_bundle.getString("welcome"));
         });
 
         Thread frThread = new Thread(() -> {
-            ResourceBundle res_bundle = ResourceBundle.getBundle("messages", Locale.FRENCH);
-            messages.put("french", res_bundle.getString("welcome"));
+            ResourceBundle res_bundle = ResourceBundle.getBundle("translation", Locale.FRENCH);
+            translation.put("_fr_CA", res_bundle.getString("welcome"));
         });
 
         enThread.start();
@@ -32,6 +34,6 @@ public class WelcomeMsgController {
         enThread.join();
         frThread.join();
 
-        return messages;
+        return translation;
     }
 }
