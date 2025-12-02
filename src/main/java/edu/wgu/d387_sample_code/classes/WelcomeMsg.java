@@ -3,10 +3,9 @@ package edu.wgu.d387_sample_code.classes;
 import java.util.Locale;
 import java.util.ResourceBundle;
 
-public class WelcomeMsg implements Runnable{
-
+public class WelcomeMsg implements Runnable {
     private final Locale locale;
-    private String message;
+    private String translation;
 
     public WelcomeMsg(Locale locale) {
         this.locale = locale;
@@ -15,14 +14,14 @@ public class WelcomeMsg implements Runnable{
     @Override
     public void run() {
         try {
-            ResourceBundle res_bundle = ResourceBundle.getBundle("translation", locale);
-            message = res_bundle.getString("welcome");
+            ResourceBundle bundle = ResourceBundle.getBundle("translation", locale);
+            translation = bundle.getString("welcome");
         } catch (Exception e) {
-            message = "Couldn't retrieve localized message: " + locale;
+            translation = "Error loading message for locale " + locale;
         }
     }
 
     public String getMessage() {
-        return "[" + locale.getDisplayLanguage() + "] " + message;
+        return "[" + locale.getDisplayLanguage() + "] " + translation;
     }
 }
