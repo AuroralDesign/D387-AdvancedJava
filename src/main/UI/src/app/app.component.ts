@@ -20,8 +20,14 @@ export class AppComponent implements OnInit {
   currentCheckInVal: string = '';
   currentCheckOutVal: string = '';
 
+  /*    WelcomeMsg    */
   englishMsg: string = 'Backup';
   frenchMsg: string = 'Backup';
+
+/*    TimezoneMsg    */
+  ET: string = 'Backup';
+  MT: string = 'Backup';
+  UTC: string = 'Backup';
 
   ngOnInit() {
     this.httpClient.get<{English: string; French: string}>(this.baseURL + "/api/welcome").subscribe({
@@ -31,6 +37,16 @@ export class AppComponent implements OnInit {
       },
       error: (err) => console.error("Error fetching welcome:", err)
     });
+
+    this.httpClient.get<{ET: string; MT: string; UTC: string}>(this.baseURL + "/api/live-presentation-times")
+      .subscribe({
+         next: (times) => {
+           this.ET = times.ET;
+           this.MT = times.MT;
+           this.UTC = times.UTC;
+         },
+       error: (err) => console.error("Error fetching times:", err)
+      });
 
     this.roomsearch = new FormGroup({
       checkin: new FormControl(''),
