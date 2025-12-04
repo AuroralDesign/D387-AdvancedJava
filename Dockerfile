@@ -1,6 +1,6 @@
 # https://www.baeldung.com/java-dockerize-app
 
-FROM openjdk:17-jdk-slim
+FROM eclipse-temurin:17-jdk-focal
 
 COPY target/D387_sample_code-0.0.2-SNAPSHOT.jar app.jar
 
