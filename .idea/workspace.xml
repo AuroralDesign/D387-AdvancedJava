@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1e32cd50-243e-49a4-807d-de2e3b5cf174" name="Changes" comment="C.3 Describe how you would deploy the current multithreaded Spring application to the cloud. Include the name of the cloud service provider you would use." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLabMergeRequestFiltersHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPENED&quot;,
+    &quot;assignee&quot;: {
+      &quot;type&quot;: &quot;org.jetbrains.plugins.gitlab.mergerequest.ui.filters.GitLabMergeRequestsFiltersValue.MergeRequestsMemberFilterValue.MergeRequestsAssigneeFilterValue&quot;,
+      &quot;username&quot;: &quot;avazq63&quot;,
+      &quot;fullname&quot;: &quot;Athena Vazquez&quot;
+    }
+  }
+}</component>
+  <component name="GitLabMergeRequestsSettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;first&quot;: &quot;https://gitlab.com/wgu-gitlab-environment/student-repos/avazq63/d387-advanced-java.git&quot;,
+    &quot;second&quot;: &quot;e0d984bc-0137-4202-ac9f-267e388e2630&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/AuroralDesign/D387-AdvancedJava",
+    "accountId": "be51bea7-5759-46cc-8618-9e2e2ae74dbe"
+  }
+}]]></component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="33yhQXodIzvKvZ5bMxTCpUoNGOR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.D387SampleCodeApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.Dockerfile.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;working__branch&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="d387-advanced-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildOnly" value="true" />
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Dockerfile" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28238.7" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e32cd50-243e-49a4-807d-de2e3b5cf174" name="Changes" comment="" />
+      <created>1760295204506</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1760295204506</updated>
+    </task>
+    <task id="LOCAL-00001" summary="B.1a Build resource bundles for both English and French (languages required by Canadian law). Include a welcome message in the language resource bundles.">
+      <option name="closed" value="true" />
+      <created>1761598958944</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1761598958944</updated>
+    </task>
+    <task id="LOCAL-00002" summary="B.1b Display the welcome message in both English and French by applying the resource bundles using a different thread for each language.">
+      <option name="closed" value="true" />
+      <created>1764627657078</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1764627657078</updated>
+    </task>
+    <task id="LOCAL-00003" summary="B.1b Push remaining dependencies">
+      <option name="closed" value="true" />
+      <created>1764627738870</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1764627738870</updated>
+    </task>
+    <task id="LOCAL-00004" summary="B.1b Troubleshooting welcome message translation error">
+      <option name="closed" value="true" />
+      <created>1764629570753</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1764629570753</updated>
+    </task>
+    <task id="LOCAL-00005" summary="B.1b Troubleshooting welcome message translation error">
+      <option name="closed" value="true" />
+      <created>1764638092371</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1764638092371</updated>
+    </task>
+    <task id="LOCAL-00006" summary="B.1b Fixed welcome display on front end :4200">
+      <option name="closed" value="true" />
+      <created>1764644714283</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1764644714283</updated>
+    </task>
+    <task id="LOCAL-00007" summary="B.2 Modify the front end to display the price for a reservation in currency rates for U.S. dollars ($), Canadian dollars (C$), and euros (€) on different lines.">
+      <option name="closed" value="true" />
+      <created>1764708377021</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1764708377021</updated>
+    </task>
+    <task id="LOCAL-00008" summary="B.3a Write a Java method to convert times between eastern time (ET), mountain time (MT), and coordinated universal time (UTC) zones.">
+      <option name="closed" value="true" />
+      <created>1764795189955</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1764795189955</updated>
+    </task>
+    <task id="LOCAL-00009" summary="B.3b Use the time zone conversion method from part B3a to display a message stating the time in all three times zones in hours and minutes for an online, live presentation held at the Landon Hotel. The times should be displayed as ET, MT, and UTC.">
+      <option name="closed" value="true" />
+      <created>1764795215127</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1764795215127</updated>
+    </task>
+    <task id="LOCAL-00010" summary="C1. Build the Dockerfile to create a single image that includes all code, including modifications made in parts B1 to B3. Commit and push the final Dockerfile to GitLab.">
+      <option name="closed" value="true" />
+      <created>1764873956159</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1764873956159</updated>
+    </task>
+    <task id="LOCAL-00011" summary="C2. Updated dockerfile FROM statement to function with docker commands">
+      <option name="closed" value="true" />
+      <created>1764876403040</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1764876403040</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added Screenshots and pushed unversioned files">
+      <option name="closed" value="true" />
+      <created>1764876506953</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1764876506953</updated>
+    </task>
+    <task id="LOCAL-00013" summary="C.3 Describe how you would deploy the current multithreaded Spring application to the cloud. Include the name of the cloud service provider you would use.">
+      <option name="closed" value="true" />
+      <created>1764878537178</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1764878537178</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="B.1a Build resource bundles for both English and French (languages required by Canadian law). Include a welcome message in the language resource bundles." />
+    <MESSAGE value="B.1b Display the welcome message in both English and French by applying the resource bundles using a different thread for each language." />
+    <MESSAGE value="B.1b Push remaining dependencies" />
+    <MESSAGE value="B.1b Troubleshooting welcome message translation error" />
+    <MESSAGE value="B.1b Fixed welcome display on front end :4200" />
+    <MESSAGE value="B.2 Modify the front end to display the price for a reservation in currency rates for U.S. dollars ($), Canadian dollars (C$), and euros (€) on different lines." />
+    <MESSAGE value="B.3a Write a Java method to convert times between eastern time (ET), mountain time (MT), and coordinated universal time (UTC) zones." />
+    <MESSAGE value="B.3b Use the time zone conversion method from part B3a to display a message stating the time in all three times zones in hours and minutes for an online, live presentation held at the Landon Hotel. The times should be displayed as ET, MT, and UTC." />
+    <MESSAGE value="C1. Build the Dockerfile to create a single image that includes all code, including modifications made in parts B1 to B3. Commit and push the final Dockerfile to GitLab." />
+    <MESSAGE value="C2. Updated dockerfile FROM statement to function with docker commands" />
+    <MESSAGE value="Added Screenshots and pushed unversioned files" />
+    <MESSAGE value="C.3 Describe how you would deploy the current multithreaded Spring application to the cloud. Include the name of the cloud service provider you would use." />
+    <option name="LAST_COMMIT_MESSAGE" value="C.3 Describe how you would deploy the current multithreaded Spring application to the cloud. Include the name of the cloud service provider you would use." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
