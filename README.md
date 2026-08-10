@@ -1,4 +1,4 @@
-# D387 - Landon Hotel Scheduling: Multithreading & Cloud Deployment
+# D387 Advanced Java - Multithreading & Cloud Deployment
 
 A modification of the Landon Hotel scheduling application (Spring backend, Angular front end) to add internationalization, multithreading, and time zone support, then containerize the app with Docker.
 
