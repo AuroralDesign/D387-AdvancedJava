@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e32cd50-243e-49a4-807d-de2e3b5cf174" name="Changes" comment="C.3 Describe how you would deploy the current multithreaded Spring application to the cloud. Include the name of the cloud service provider you would use." />
+    <list default="true" id="1e32cd50-243e-49a4-807d-de2e3b5cf174" name="Changes" comment="Pushing D387 Project to GitHub" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +26,12 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "AuroralDesign"
+  }
+}]]></component>
   <component name="GitLabMergeRequestFiltersHistory">{
   &quot;lastFilter&quot;: {
     &quot;state&quot;: &quot;OPENED&quot;,
@@ -223,7 +229,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764878537178</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Pushing D387 Project to GitHub">
+      <option name="closed" value="true" />
+      <created>1786386264665</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1786386264665</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -250,7 +264,8 @@
     <MESSAGE value="C2. Updated dockerfile FROM statement to function with docker commands" />
     <MESSAGE value="Added Screenshots and pushed unversioned files" />
     <MESSAGE value="C.3 Describe how you would deploy the current multithreaded Spring application to the cloud. Include the name of the cloud service provider you would use." />
-    <option name="LAST_COMMIT_MESSAGE" value="C.3 Describe how you would deploy the current multithreaded Spring application to the cloud. Include the name of the cloud service provider you would use." />
+    <MESSAGE value="Pushing D387 Project to GitHub" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pushing D387 Project to GitHub" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
